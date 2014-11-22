@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<!-- Put site-specific property overrides in this file. -->
+
+<configuration>
+
+<property>
+<name>hadoop.tmp.dir</name>
+<value>/usr/hadoop-1.2.1/tmp</value>
+</property>
+<property>
+<name>fs.default.name</name>
+<value>hdfs://hadoop-master:9000</value>
+</property>
+<property>
+<name>fs.trash.interval</name>
+<value>120</value>
+</property>
+</configuration>
